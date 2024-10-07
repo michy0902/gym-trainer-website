@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/gallery.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero-area">
+        <header class="header-section">
+            <div class="container">
+                <nav class="navbar">
+                    <div>
+                        <a href="index.html" class="navbar-brand">Zacson</a>
+                    </div>
+                    
+                    <div id="navbarMenu" class="navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="homepage.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="gym.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#whyhtml" class="nav-link">Why us</a></li>
+                            <li class="nav-item"><a href="#courses.html" class="nav-link">COURSES</a></li>
+                            <li class="nav-item"><a href="pricing.html" class="nav-link">PRICING</a></li>
+                            <li class="nav-item"><a href="#trainer.html" class="nav-link  active">trainers</a></li>
+                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="test.html" class="nav-link">Contact Us</a></li>
+                        </ul>
+                        <div class="user-option">
+                            <button class="register-btn">
+                                <a href="login.html">Register</a>
+                            </button>
+                        </div>
+                    </div>
+                    <button onclick="menuToggle()" class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <section class="trainer-section">
+            <div class="container">
+                <div class="heading-container">
+                    <h2>Our Gym Trainers</h2>
+                </div>
+                <div class="trainer-container">
+                    <div class="box">
+                        <div class="name">
+                            <h5>Smirth Jon</h5>
+                        </div>
+                        <div class="img-box">
+                            <img src="images/t1.jpg" alt="Smirth Jon">
+                        </div>
+                        <div class="social-box">
+                            <a href="#"><img src="images/facebook-logo.png" alt="Facebook"></a>
+                            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="images/instagram-logo.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="name">
+                            <h5>Jean Doe</h5>
+                        </div>
+                        <div class="img-box">
+                            <img src="images/t2.jpg" alt="Jean Doe">
+                        </div>
+                        <div class="social-box">
+                            <a href="#"><img src="images/facebook-logo.png" alt="Facebook"></a>
+                            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="images/instagram-logo.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="name">
+                            <h5>Alex Den</h5>
+                        </div>
+                        <div class="img-box">
+                            <img src="images/t3.jpg" alt="Alex Den">
+                        </div>
+                        <div class="social-box">
+                            <a href="#"><img src="images/facebook-logo.png" alt="Facebook"></a>
+                            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="images/instagram-logo.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function menuToggle() {
+            const navbarMenu = document.getElementById('navbarMenu');
+            navbarMenu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
