@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: black;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.active{
+    color:orange !important;
+}
+.signup-btn{
+top: 40px;
+right: 80px;
+position: absolute;
+text-decoration: none;
+color: orange;
+border: 2px solid transparent;
+border-radius: 20px;
+background-image: linear-gradient(white,black),radial-gradient(circle at top left,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color:orange;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0px 30px 40px;
+    line-height: 25px;
+    color:black;
+}
+.app-picture{
+    width: 35%;
+    float: right;
+}
+.app-picture img{
+    width: 100%;
+}
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+border-radius: 50%;
+background-image: linear-gradient(white,black),radial-gradient(circle at top left,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+text-align: center;
+}
+.play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1px;
+}
+.quick-links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, white,black);
+}
+.quick-links ul{
+    display: inline-flex;
+    margin:20px auto;
+    text-align: center;
+}
+.quick-links ul li{
+    list-style: none;
+    margin:0 120px auto;
+    cursor: pointer;
+}
+.quick-links ul li .fa{
+    font-size: 20px;
+    color: orange;
+}
+.quick-links ul li p{
+    margin: 15px;
+    font-size: 10px;
+    color:orange;
+}
+.social-icons{
+    right: 62px;
+    bottom: 0px;
+    position: absolute;
+}
+.social-icons ul li{
+    color: white;
+    border-radius: 50%;
+    border: 1px solid orange;
+    padding: 5px;
+    display: block;
+}
