@@ -1,7 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0
   }
   
   body {
@@ -50,31 +48,23 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: bold;
   }
   
   .hero {
     position: relative;
     height: 100vh;
-    background-image: url('../images/homepage.jpg'); /* Replace with your image */
+    background-image: url('../images/homepage.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
   }
-  
-  .hero .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-  }
+
   
   .hero .content {
     position: relative;
